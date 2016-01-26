@@ -1,0 +1,96 @@
+<ion-view cache-view="false" can-swipe-back="false">
+
+    <!-- header begin -->
+
+    <ion-nav-bar class="bar-light" align-title="center">
+
+        <ion-nav-title>
+            <h1 class="title">换绑手机</h1>
+        </ion-nav-title>
+
+        <ion-nav-buttons side="left">
+            &nbsp;&nbsp;<a class="button button-clear" href="/setting" nav-direction="back">
+            <img src="i_arrowleft.png" style="width:1.2rem;">
+        </a>
+        </ion-nav-buttons>
+
+    </ion-nav-bar>
+    <!-- header end -->
+
+
+    <!-- 正文 begin -->
+
+    <ion-content style="background-color: rgb(250,251,252);">
+
+        <form name="changeTelForm1" novalidate>
+
+
+            <div style="height:2.5rem"></div>
+
+
+            <table class="width-100">
+                <tr>
+                    <td style="width:5%;"></td>
+                    <td colspan="3" style="width:90%;">
+                        <label class="item item-input border-r-arc both-center height-5rem">
+                            <img src="i_cellphonered.png" style="width:1.8rem;">
+                            &nbsp;
+                            <input type="tel" class="bg-t" required ng-pattern="/^1[\d]{10}$/" name="cellphone" ng-model="cellphone" placeholder="请输入新的手机号码" >
+                        </label>
+                    </td>
+                    <td style="width:5%;"></td>
+                </tr>
+                <tr>
+                    <td style="height:1.5rem;" colspan="5">
+
+                        <div class="text-center" ng-show="changeTelForm1.cellphone.$dirty && changeTelForm1.cellphone.$invalid">
+                            提示:
+                            <span ng-show="changeTelForm1.cellphone.$error.required">手机号码不能为空，请输入11位手机号码</span>
+                            <span ng-show="changeTelForm1.cellphone.$error.pattern">请输入11位手机号码</span>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:5%;"></td>
+                    <td>
+                        <label class="item item-input border-r-arc both-center height-5rem both-center">
+                            <img src="i_smsred.png" style="width:2rem;">
+                            &nbsp;
+                            <input type="tel" placeholder="输入短信验证码" required ng-pattern="/^\d{6}$/" name="captcha" ng-model="captcha">
+                        </label>
+                    </td>
+                    <td style="width:3%;">
+                        &nbsp;
+                    </td>
+                    <td>
+                        <button class="button color-red bg-t border-r-arc border-red both-center height-5rem width-100" ng-disabled="countdownButtonDisabled" style="min-width:11rem;" ng-model="countdownButtonDisabled" ng-click="resendCaptcha(cellphone)">{{countdownButtonText}}</button>
+                    </td>
+                    <td style="width:5%;"></td>
+                </tr>
+                <tr>
+                    <td style="height:1.5rem;" colspan="5">
+                        <div class="text-center" ng-show="changeTelForm1.captcha.$dirty && changeTelForm1.captcha.$invalid">
+                            提示:
+                            <span ng-show="changeTelForm1.captcha.$error.required">验证码不能为空，请输入6位验证码</span>
+                            <span ng-show="changeTelForm1.captcha.$error.pattern">请输入6位验证码</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:5%;"></td>
+                    <td colspan="3" style="width:90%;">
+                        <button type="submit" class="button button-block bg-red border-r-arc border-red color-white height-5rem font-size1_9" ng-click="finishButtonClicked(cellphone, captcha, password)" ng-disabled="(registerForm1.cellphone.$pristine || registerForm1.cellphone.$dirty && registerForm1.cellphone.$invalid) || (registerForm1.captcha.$pristine || registerForm1.captcha.$dirty && registerForm1.captcha.$invalid) || (registerForm1.password.$pristine || registerForm1.password.$dirty && registerForm1.password.$invalid)">换绑手机</button>
+                    </td>
+                    <td style="width:5%;"></td>
+                </tr>
+            </table>
+
+
+        </form>
+
+    </ion-content>
+
+    <!-- 正文 end -->
+
+</ion-view>
