@@ -1,4 +1,4 @@
-<div ng-controller="PartiesListCtrl as vm" id="paries">
+<div ng-controller="PartiesListCtrl04 as vm" id="parties4">
     <div id="container">
         <form class="form-horizontal" name="myForm" novalidate>
             <div class="blank"></div>
@@ -9,13 +9,13 @@
                 <div class="inp">
                     <a href="" class="btn btn-lg col-sm-1">
                         <input id="btnChooseProvice" type="text"
-                               readonly="true" class="btn btn-sm" ng-model="parties[0].provice"/>
+                               readonly="true" class="btn btn-sm" ng-model="parties4[0].provice"/>
                         <span  class="caret numberCaret"></span>
                     </a>
                     <input class="input-lg col-sm-11 letter numberCss" type="text" id="number" style="width:65%"
-                           ng-disabled="parties[0].disabled" name="num"
-                           ng-model="parties[0].number" ng-readonly="true" required/>
-                    <span  ng-show="parties[0].numberValidate"  class="validateStyle" >{{parties[0].carNumVal}}</span>
+                           ng-disabled="parties4[0].disabled" name="num"
+                           ng-model="parties4[0].number" ng-readonly="true" required/>
+                    <span  ng-show="parties4[0].numberValidate"  class="validateStyle" >{{parties4[0].carNumVal}}</span>
                     <!--<span style="color:red" ng-show="myForm.num.$dirty && myForm.num.$invalid">
                      <span ng-show="myForm.num.$error.required">用户名是必须的。</span>
                      </span>-->
@@ -29,10 +29,10 @@
                 </div>
 
                 <div class="inp">
-                    <input class="input-lg col-sm-12 letter inpWidth" type="text" id="count" ng-disabled="parties[0].disabled" ng-model="parties[0].count"
+                    <input class="input-lg col-sm-12 letter inpWidth" type="text" id="count" ng-disabled="parties4[0].disabled" ng-model="parties4[0].count"
                            ng-readonly="true"
                            style="ime-mode:disabled;width: 73%;"/>
-                    <span  ng-show="parties[0].countValidate"  class="validateStyle">{{parties[0].countVal}}</span>
+                    <span  ng-show="parties4[0].countValidate"  class="validateStyle">{{parties4[0].countVal}}</span>
                 </div>
             </div>
 
@@ -42,9 +42,9 @@
                     <span class="title">扣分数</span>
                 </div>
                 <div class="inp">
-                    <input class="input-lg col-sm-12 letter inpWidth" type="text" id="points" ng-disabled="parties1[0].disabled"
-                           ng-model="parties[0].points" ng-readonly="true" style="width: 73%;" />
-                    <span  ng-show="parties[0].pointsValidate"   class="validateStyle">{{parties[0].pointsVal}}</span>
+                    <input class="input-lg col-sm-12 letter inpWidth" type="text" id="points" ng-disabled="parties4[0].disabled"
+                           ng-model="parties4[0].points" ng-readonly="true" style="width: 73%;" />
+                    <span  ng-show="parties4[0].pointsValidate"   class="validateStyle">{{parties4[0].pointsVal}}</span>
                 </div>
             </div>
 
@@ -53,9 +53,9 @@
                     <span class="title">电话号码</span>
                 </div>
                 <div class="inp">
-                    <input class="input-lg col-sm-12 letter inpWidth" type="text" id="tel" ng-disabled="parties1[0].disabled"
-                           ng-model="parties[0].telnumber" ng-readonly="true" style="width: 73%;"/>
-                    <span  ng-show="parties[0].telValidate"  class="validateStyle">{{parties[0].telVal}}</span>
+                    <input class="input-lg col-sm-12 letter inpWidth" type="text" id="tel" ng-disabled="parties4[0].disabled"
+                           ng-model="parties4[0].telnumber" ng-readonly="true" style="width: 73%;"/>
+                    <span  ng-show="parties4[0].telValidate"  class="validateStyle">{{parties4[0].telVal}}</span>
                 </div>
             </div>
             <div class="form-group divContent" id="chooseType" style="margin-left:100px ">
@@ -66,12 +66,12 @@
                 </div>
                 <div class="inp carTypeBar " id="chooseSamllCar">
                     <span id="samllCarTitle" class="carType">小型</span>
-                             <span ng-show="parties[0].smallCar" name="radio">
+                             <span ng-show="parties4[0].smallCar" name="radio">
                                <img id="imgSamllCarShow" src="choose_btn_pre.png"
                                     css="chooseCarTypeLocation imgSamllCar imgSamllCarShow" alt=""
                                     style="margin-left: 8px;"/>
                              </span>
-                             <span ng-show="!parties[0].smallCar" name="radio">
+                             <span ng-show="!parties4[0].smallCar" name="radio">
                                <img id="imgSamllCarHide" src="choose_btn_nor.png" css="imgSamllCar imgSamllCarHide"
                                     alt=""
                                     style="margin-left: 8px;"/>
@@ -80,11 +80,11 @@
 
                 <div class="inp carTypeBar " id="chooseMiddleCar">
                     <span id="bigCarType" class="carType">中型</span>
-                             <span ng-show="parties[0].middleCar" name="radio">
+                             <span ng-show="parties4[0].middleCar" name="radio">
                                <img id="imgBigCarShow" src="choose_btn_pre.png" alt=""
                                     class="imgBigCarShow"/>
                              </span>
-                             <span ng-show="!parties[0].middleCar" name="radio">
+                             <span ng-show="!parties4[0].middleCar" name="radio">
                                <img src="choose_btn_nor.png" class="imgbigcarHide"/>
                              </span>
                 </div>
@@ -92,30 +92,31 @@
                 <div class="inp carTypeBar " id="chooseBigCar">
                     <span class="carType">大型   </span>
 
-                             <span ng-show="parties[0].bigCar" name="radio">
+                             <span ng-show="parties4[0].bigCar" name="radio">
                                <img src="choose_btn_pre.png" class="carTypeOtherShow" alt=""/>
                              </span>
-                             <span ng-show="!parties[0].bigCar" name="radio">
+                             <span ng-show="!parties4[0].bigCar" name="radio">
                                <img src="choose_btn_nor.png" alt="" class="cartypeotherHide"/>
                              </span>
                 </div>
 
-                                <div id="selList" class="inp carTypeBar " >
-                                    <span class="carType" style = "position: relative; top: 5px" >其它</span><!--!parties[0].other    ng-disabled="true" readonly="true"-->
-                                   <div class="btn-group dropdown">
-                                  <input   id="getSelVal" type="button"
-                                    class="btn btn-default dropdown-toggle inpStyle"
-                                   data-toggle="dropdown" value="{{parties[0].otherType}}"  style="width: 120px;"/> <span class="caret" style="margin-top: 20px;margin-left: -15px;"></span>
-                                   <ul id="selType" class="dropdown-menu" ng-model="parties[0].otherType">
-                                   <li ng-repeat="setCarType in vm.setCarType" ng-click="selType($index)">
-                                   <a href="">{{setCarType.type}}</a>
-                                  </li>
-                                  </ul>
-                               </div>
-                             </div>
+                <div id="selList" class="inp carTypeBar " >
+                    <span class="carType" style = "position: relative; top: 5px" >其它</span><!--!parties[0].other    ng-disabled="true" readonly="true"-->
+                    <div class="btn-group dropdown">
+                        <input   id="getSelVal" type="button"
+                                 class="btn btn-default dropdown-toggle inpStyle"
+                                 data-toggle="dropdown" value="{{parties4[0].otherType}}"  style="width: 120px;"/> <span class="caret" style="margin-top: 20px;margin-left: -15px;"></span>
+
+                        <ul id="selType" class="dropdown-menu" ng-model="parties4[0].otherType">
+                            <li ng-repeat="setCarType in vm.setCarType" ng-click="selType($index)">
+                                <a href="">{{setCarType.type}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
 
-                   <!-- <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <!-- <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 
 
                      <div class="dropdown">
@@ -148,19 +149,12 @@
                         </li>
                     </ul>
                 </div>-->
-
-
-
-
-
-
-
                 <div class="inp carTypeBar">
-                    <span  ng-show="parties[0].typeValidate"   class="validateStyle">{{parties[0].carType}}</span>
+                    <span  ng-show="parties4[0].typeValidate"   class="validateStyle">{{parties4[0].carType}}</span>
                 </div>
 
             </div>
-            <input id="inpvalue" disabled="disabled" type=" text" ng-model="parties1[0].status" ng-disabled="isbool">
+            <input id="inpvalue" disabled="disabled" type=" text" ng-model="parties4[0].status" ng-disabled="isbool">
         </form>
     </div><!--.contaier over -->
     <div id="proviceList" class="provice">
@@ -255,24 +249,21 @@
             <a class="btn btn-lg col-sm-1">Y</a>
             <a class="btn btn-lg col-sm-1">Z</a>
             <a id="sDel" class="btn  col-sm-2 spanDelCss" style="width: 129px;height: 52px;border-radius:10px;">-</a>
-
-
-
         </div><!--WO4RD OVER-->
         <div id="btnFun" class="row">
             <span id="btnRest" class="btn btn-lg" ng-click="removeAll()">重置</span>
-            <span id="btnOK" class="btn btn-lg" ng-disabled="parties[0].disabled" ng-click="status()">确认</span>
-            <span id="btnStatusNo" class="btn btn-lg" ng-show="!parties[0].status" style="background-color: #D3D3D3">
+            <span id="btnOK" class="btn btn-lg" ng-disabled="parties4[0].disabled" ng-click="status()">确认</span>
+            <span id="btnStatusNo" class="btn btn-lg" ng-show="!parties4[0].status" style="background-color: #D3D3D3">
                 <span>确认全部信息无误后,请点击"确认"</span>
             </span>
-                <span id="btnStatusYes" class="btn btn-lg" ng-show="parties[0].status">
+                <span id="btnStatusYes" class="btn btn-lg" ng-show="parties4[0].status">
                     <span>用户已确认</span>
                     <span class="glyphicon glyphicon-ok pull-right"></span>
                 </span>
         </div>
     </div>
 
-    <div class="divDisabled" id="btnDisabled" ng-show="parties[0].status">
+    <div class="divDisabled" id="btnDisabled" ng-show="parties4[0].status">
 
     </div>
 </div>

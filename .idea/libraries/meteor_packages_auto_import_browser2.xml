@@ -59,6 +59,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/pbastowski_angular-babel/1.0.9/web.browser/lib/runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/pbastowski_angular-babel/1.0.9/web.browser/lib/browser-polyfill.js" />
         <item url="file://$USER_HOME$/.meteor/packages/pbastowski_angular-babel/1.0.9/web.browser/lib/core-js-no-number.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/semantic_ui-dropdown/2.1.7/web.browser/dropdown.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/semantic_ui-dropdown/2.1.7/web.browser/dropdown.css" />
         <item url="file://$USER_HOME$/.meteor/packages/jquery/1.11.4/web.browser/jquery.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.2.6/web.browser/.npm/package/node_modules/meteor-ecmascript-runtime/client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.6/web.browser/reactive-var.js" />
@@ -111,6 +113,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.4/web.browser/ordered_dict.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.7/web.browser/spacebars-runtime.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/semantic_ui-css/2.1.2/web.browser/packages/semantic_ui-css.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/semantic_ui-css/2.1.2/web.browser/packages/semantic_ui-css/semantic.css" />
         <item url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/mobile-launch-screen.js" />
         <item url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/default-behavior.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
@@ -118,10 +122,13 @@
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/html-scanner.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/throw-compile-error.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kidovate_jquery.autocomplete/1.2.9/web.browser/packages/kidovate:jquery.autocomplete.js" />
         <item url="file://$USER_HOME$/.meteor/packages/angularui_angular-ui-router/0.2.15/web.browser/packages/angularui_angular-ui-router.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/linto_jquery-ui/1.11.2/web.browser/packages/linto:jquery-ui.js" />
         <item url="file://$USER_HOME$/.meteor/packages/promise/0.5.1/web.browser/.npm/package/node_modules/meteor-promise/promise.bundle.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/templating-tools.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/compile-tags-with-spacebars.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/linto_jquery-ui/1.11.2/web.browser/packages/linto:jquery-ui/1.11.2/jquery-ui.css" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/templatetag.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/codegen.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/optimizer.js" />
@@ -189,6 +196,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/pbastowski_angular-babel/1.0.9/web.browser/lib/runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/pbastowski_angular-babel/1.0.9/web.browser/lib/browser-polyfill.js" />
       <root url="file://$USER_HOME$/.meteor/packages/pbastowski_angular-babel/1.0.9/web.browser/lib/core-js-no-number.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/semantic_ui-dropdown/2.1.7/web.browser/dropdown.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/semantic_ui-dropdown/2.1.7/web.browser/dropdown.css" />
       <root url="file://$USER_HOME$/.meteor/packages/jquery/1.11.4/web.browser/jquery.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.2.6/web.browser/.npm/package/node_modules/meteor-ecmascript-runtime/client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.6/web.browser/reactive-var.js" />
@@ -241,6 +250,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.4/web.browser/ordered_dict.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.7/web.browser/spacebars-runtime.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/semantic_ui-css/2.1.2/web.browser/packages/semantic_ui-css.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/semantic_ui-css/2.1.2/web.browser/packages/semantic_ui-css/semantic.css" />
       <root url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/mobile-launch-screen.js" />
       <root url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/default-behavior.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
@@ -248,10 +259,13 @@
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/html-scanner.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/throw-compile-error.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kidovate_jquery.autocomplete/1.2.9/web.browser/packages/kidovate:jquery.autocomplete.js" />
       <root url="file://$USER_HOME$/.meteor/packages/angularui_angular-ui-router/0.2.15/web.browser/packages/angularui_angular-ui-router.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/linto_jquery-ui/1.11.2/web.browser/packages/linto:jquery-ui.js" />
       <root url="file://$USER_HOME$/.meteor/packages/promise/0.5.1/web.browser/.npm/package/node_modules/meteor-promise/promise.bundle.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/templating-tools.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/compile-tags-with-spacebars.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/linto_jquery-ui/1.11.2/web.browser/packages/linto:jquery-ui/1.11.2/jquery-ui.css" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/templatetag.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/codegen.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/optimizer.js" />
